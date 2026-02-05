@@ -1,17 +1,99 @@
-[
-  {
-    "name": "Slope",
-    "img": "https://azgames.io/games/slope/slope.png",
-    "url": "https://azgames.io/slope.embed"
-  },
-  {
-    "name": "Traffic Road",
-    "img": "https://azgames.io/games/traffic-road/traffic-road.png",
-    "url": "https://azgames.io/traffic-road.embed"
-  },
-  {
-    "name": "Bike Xtreme",
-    "img": "https://azgames.io/games/bike-xtreme/bike-xtreme.png",
-    "url": "https://azgames.io/bike-xtreme.embed"
-  }
-]
+{
+  "name": "Slope 2",
+  "url": "https://azgames.io/slope-2.embed"
+},
+{
+  "name": "Drift Hunters",
+  "url": "https://azgames.io/drift-hunters.embed"
+},
+{
+  "name": "Stickman Hook",
+  "url": "https://azgames.io/stickman-hook.embed"
+},
+{
+  "name": "Subway Surfers",
+  "url": "https://azgames.io/subway-surfers.embed"
+},
+{
+  "name": "Temple Run 2",
+  "url": "https://azgames.io/temple-run-2.embed"
+},
+{
+  "name": "Fireboy and Watergirl",
+  "url": "https://azgames.io/fireboy-and-watergirl.embed"
+},
+{
+  "name": "Fireboy and Watergirl 2",
+  "url": "https://azgames.io/fireboy-and-watergirl-2.embed"
+},
+{
+  "name": "Fireboy and Watergirl 3",
+  "url": "https://azgames.io/fireboy-and-watergirl-3.embed"
+},
+{
+  "name": "Fireboy and Watergirl 4",
+  "url": "https://azgames.io/fireboy-and-watergirl-4.embed"
+},
+{
+  "name": "Moto X3M",
+  "url": "https://azgames.io/moto-x3m.embed"
+},
+{
+  "name": "Moto X3M 2",
+  "url": "https://azgames.io/moto-x3m-2.embed"
+},
+{
+  "name": "Moto X3M 3",
+  "url": "https://azgames.io/moto-x3m-3.embed"
+},
+{
+  "name": "Vex 4",
+  "url": "https://azgames.io/vex-4.embed"
+},
+{
+  "name": "Vex 5",
+  "url": "https://azgames.io/vex-5.embed"
+},
+{
+  "name": "Vex 6",
+  "url": "https://azgames.io/vex-6.embed"
+},
+{
+  "name": "Vex 7",
+  "url": "https://azgames.io/vex-7.embed"
+},
+{
+  "name": "Tunnel Rush",
+  "url": "https://azgames.io/tunnel-rush.embed"
+},
+{
+  "name": "Tunnel Rush 2",
+  "url": "https://azgames.io/tunnel-rush-2.embed"
+},
+{
+  "name": "Madalin Stunt Cars 2",
+  "url": "https://azgames.io/madalin-stunt-cars-2.embed"
+},
+{
+  "name": "Madalin Stunt Cars 3",
+  "url": "https://azgames.io/madalin-stunt-cars-3.embed"
+},
+{
+  "name": "Run",
+  "url": "https://azgames.io/run.embed"
+},
+{
+  "name": "Run 2",
+  "url": "https://azgames.io/run-2.embed"
+},
+{
+  "name": "Run 3",
+  "url": "https://azgames.io/run-3.embed"
+},
+{
+  "name": "Slope Tunnel",
+  "url": "https://azgames.io/slope-tunnel.embed"
+},
+{
+  "name": "Slope City",
+  "url": "https://azgames
