@@ -1,19 +1,22 @@
-<script>
-fetch("https://raw.githubusercontent.com/moneyenr123/JC-Game-Hub2/main/data/all.json")
-  .then(res => res.json())
-  .then(games => {
-    const container = document.getElementById("games");
-    games.forEach(g => {
-      const card = document.createElement("div");
-      card.className = "game-card";
-      card.innerHTML = `
-        <img src="${g.img}">
-        <p>${g.name}</p>
-      `;
-      card.onclick = () => window.location.href = g.url;
-      container.appendChild(card);
-    });
-  });
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JC Game Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<div id="games"></div>
+<header>
+  <h1>JC Game Hub</h1>
+</header>
+
+<div id="game-grid"></div>
+
+<div id="player-container">
+  <button id="back-btn">← Back</button>
+  <iframe id="game-frame"></iframe>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
