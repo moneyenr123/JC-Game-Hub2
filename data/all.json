@@ -1,7 +1,42 @@
 [
   {
     "name": "Slope",
-    "img": "https://azgames.io/games/slope/slope.png",
-    "url": "https://azgames.io/slope.embed"
+    "img": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/slope/slope.png",
+    "url": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/slope/index.html"
+  },
+  {
+    "name": "Run 3",
+    "img": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/run-3/icon.png",
+    "url": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/run-3/index.html"
+  },
+  {
+    "name": "Drift Hunters",
+    "img": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/drift-hunters/icon.png",
+    "url": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/drift-hunters/index.html"
+  },
+  {
+    "name": "Retro Bowl",
+    "img": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/retro-bowl/logo.png",
+    "url": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/retro-bowl/index.html"
+  },
+  {
+    "name": "1v1.lol",
+    "img": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/1v1lol/icon.png",
+    "url": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/1v1lol/index.html"
+  },
+  {
+    "name": "Moto X3M",
+    "img": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/moto-x3m/icon.png",
+    "url": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/moto-x3m/index.html"
+  },
+  {
+    "name": "Vex 4",
+    "img": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/vex4/icon.png",
+    "url": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/vex4/index.html"
+  },
+  {
+    "name": "Basketball Stars",
+    "img": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/basketball-stars/icon.png",
+    "url": "https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/basketball-stars/index.html"
   }
 ]
