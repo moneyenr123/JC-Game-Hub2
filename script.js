@@ -15,5 +15,6 @@ form.onsubmit = e => {
 
   const encoded = btoa(q);
 
-  window.location.href = "scramblejet.html?u=" + encoded;
+  // Go to embed mode instead of redirecting away
+  window.location.href = "embed.html#u=" + encoded;
 };
