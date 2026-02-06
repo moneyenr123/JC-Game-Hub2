@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting…</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="redirect">
+  <h2>Loading…</h2>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const encoded = params.get("u");
+
+    if (encoded) {
+      try {
+        const decoded = atob(encoded);
+
+        if (decoded.startsWith("http") || decoded.includes(".")) {
+          window.location.href = decoded.startsWith("http")
+            ? decoded
+            : "https://" + decoded;
+        } else {
+          window.location.href =
+            "https://duckduckgo.com/?q=" + encodeURIComponent(decoded);
+        }
+      } catch (e) {
+        document.body.innerHTML = "<h2>Error decoding link</h2>";
+      }
+    }
+  </script>
+</body>
+</html>
