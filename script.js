@@ -15,6 +15,6 @@ form.onsubmit = e => {
 
   const encoded = btoa(q);
 
-  // Go to embed mode instead of redirecting away
-  window.location.href = "embed.html#u=" + encoded;
+  // Open ScrambleJet in a NEW TAB
+  window.open("scramblejet.html?u=" + encoded, "_blank");
 };
