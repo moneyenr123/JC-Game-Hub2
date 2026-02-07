@@ -16,14 +16,22 @@
       try {
         const decoded = atob(encoded);
 
-        if (decoded.startsWith("http") || decoded.includes(".")) {
-          window.location.href = decoded.startsWith("http")
-            ? decoded
-            : "https://" + decoded;
+        let finalURL = "";
+
+        if (decoded.startsWith("http")) {
+          finalURL = decoded;
+        } else if (decoded.includes(".")) {
+          finalURL = "https://" + decoded;
         } else {
-          window.location.href =
-            "https://duckduckgo.com/?q=" + encodeURIComponent(decoded);
+          finalURL = "https://duckduckgo.com/?q=" + encodeURIComponent(decoded);
         }
+
+        // Open the REAL site in a NEW TAB
+        window.open(finalURL, "_blank");
+
+        // Optional: show a message
+        document.body.innerHTML = "<h2>Opened in a new tab.</h2>";
+
       } catch (e) {
         document.body.innerHTML = "<h2>Error decoding link</h2>";
       }
